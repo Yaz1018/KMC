@@ -1,0 +1,370 @@
+{
+    "authentication": {
+        "mobile": {
+            "authenticationType": "anonymous",
+            "settings": {}
+        },
+        "web": {
+            "authenticationType": "kinvey-auth",
+            "settings": {}
+        }
+    },
+    "children": [
+        {
+            "clientSideProcessing": false,
+            "excludedFields": [
+                {
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "fieldType": "string",
+                            "label": "Creator",
+                            "name": "creator",
+                            "required": false
+                        }
+                    ],
+                    "label": "Acl",
+                    "name": "_acl",
+                    "required": false
+                },
+                {
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "fieldType": "date",
+                            "label": "Lmt",
+                            "name": "lmt",
+                            "required": false
+                        },
+                        {
+                            "fieldType": "date",
+                            "label": "Ect",
+                            "name": "ect",
+                            "required": false
+                        }
+                    ],
+                    "label": "Kmd",
+                    "name": "_kmd",
+                    "required": false
+                }
+            ],
+            "fields": [
+                {
+                    "fieldType": "string",
+                    "label": "Id",
+                    "name": "_id",
+                    "required": false
+                },
+                {
+                    "fieldType": "object",
+                    "label": "MapiResponse",
+                    "name": "mapiResponse",
+                    "required": false
+                },
+                {
+                    "fieldType": "string",
+                    "label": "Name",
+                    "name": "mapiResponse[0].name",
+                    "required": false
+                }
+            ],
+            "name": "apps"
+        },
+        {
+            "clientSideProcessing": false,
+            "excludedFields": [
+                {
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "fieldType": "string",
+                            "label": "Creator",
+                            "name": "creator",
+                            "required": false
+                        }
+                    ],
+                    "label": "Acl",
+                    "name": "_acl",
+                    "required": false
+                },
+                {
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "fieldType": "date",
+                            "label": "Lmt",
+                            "name": "lmt",
+                            "required": false
+                        },
+                        {
+                            "fieldType": "date",
+                            "label": "Ect",
+                            "name": "ect",
+                            "required": false
+                        }
+                    ],
+                    "label": "Kmd",
+                    "name": "_kmd",
+                    "required": false
+                }
+            ],
+            "fields": [
+                {
+                    "fieldType": "string",
+                    "label": "Id",
+                    "name": "_id",
+                    "required": false
+                }
+            ],
+            "name": "collaborators"
+        },
+        {
+            "clientSideProcessing": false,
+            "excludedFields": [
+                {
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "fieldType": "string",
+                            "label": "Creator",
+                            "name": "creator",
+                            "required": false
+                        }
+                    ],
+                    "label": "Acl",
+                    "name": "_acl",
+                    "required": false
+                },
+                {
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "fieldType": "date",
+                            "label": "Lmt",
+                            "name": "lmt",
+                            "required": false
+                        },
+                        {
+                            "fieldType": "date",
+                            "label": "Ect",
+                            "name": "ect",
+                            "required": false
+                        }
+                    ],
+                    "label": "Kmd",
+                    "name": "_kmd",
+                    "required": false
+                }
+            ],
+            "fields": [
+                {
+                    "fieldType": "string",
+                    "label": "Id",
+                    "name": "_id",
+                    "required": false
+                }
+            ],
+            "name": "collections"
+        },
+        {
+            "clientSideProcessing": false,
+            "excludedFields": [
+                {
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "fieldType": "string",
+                            "label": "Creator",
+                            "name": "creator",
+                            "required": false
+                        }
+                    ],
+                    "label": "Acl",
+                    "name": "_acl",
+                    "required": false
+                },
+                {
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "fieldType": "date",
+                            "label": "Lmt",
+                            "name": "lmt",
+                            "required": false
+                        },
+                        {
+                            "fieldType": "date",
+                            "label": "Ect",
+                            "name": "ect",
+                            "required": false
+                        }
+                    ],
+                    "label": "Kmd",
+                    "name": "_kmd",
+                    "required": false
+                }
+            ],
+            "fields": [
+                {
+                    "fieldType": "string",
+                    "label": "Id",
+                    "name": "_id",
+                    "required": false
+                },
+                {
+                    "fieldType": "boolean",
+                    "label": "UseHardcodedAuth",
+                    "name": "useHardcodedAuth",
+                    "required": false
+                },
+                {
+                    "fieldType": "string",
+                    "label": "AuthHeader",
+                    "name": "authHeader",
+                    "required": false
+                }
+            ],
+            "name": "config"
+        },
+        {
+            "clientSideProcessing": false,
+            "excludedFields": [
+                {
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "fieldType": "string",
+                            "label": "Creator",
+                            "name": "creator",
+                            "required": false
+                        }
+                    ],
+                    "label": "Acl",
+                    "name": "_acl",
+                    "required": false
+                },
+                {
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "fieldType": "date",
+                            "label": "Lmt",
+                            "name": "lmt",
+                            "required": false
+                        },
+                        {
+                            "fieldType": "date",
+                            "label": "Ect",
+                            "name": "ect",
+                            "required": false
+                        }
+                    ],
+                    "label": "Kmd",
+                    "name": "_kmd",
+                    "required": false
+                }
+            ],
+            "fields": [
+                {
+                    "fieldType": "string",
+                    "label": "Id",
+                    "name": "_id",
+                    "required": false
+                },
+                {
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "fieldType": "object",
+                            "fields": [
+                                {
+                                    "fieldType": "string",
+                                    "label": "Firstname",
+                                    "name": "firstname",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "string",
+                                    "label": "Lastname",
+                                    "name": "lastname",
+                                    "required": false
+                                }
+                            ],
+                            "label": "Name",
+                            "name": "name",
+                            "required": false
+                        }
+                    ],
+                    "label": "NestedField",
+                    "name": "nestedField",
+                    "required": false
+                }
+            ],
+            "name": "nestedChallenge"
+        },
+        {
+            "clientSideProcessing": false,
+            "excludedFields": [
+                {
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "fieldType": "string",
+                            "label": "Creator",
+                            "name": "creator",
+                            "required": false
+                        }
+                    ],
+                    "label": "Acl",
+                    "name": "_acl",
+                    "required": false
+                },
+                {
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "fieldType": "date",
+                            "label": "Lmt",
+                            "name": "lmt",
+                            "required": false
+                        },
+                        {
+                            "fieldType": "date",
+                            "label": "Ect",
+                            "name": "ect",
+                            "required": false
+                        }
+                    ],
+                    "label": "Kmd",
+                    "name": "_kmd",
+                    "required": false
+                }
+            ],
+            "fields": [
+                {
+                    "fieldType": "string",
+                    "label": "Id",
+                    "name": "_id",
+                    "required": false
+                }
+            ],
+            "name": "services"
+        }
+    ],
+    "kinveyApp": {
+        "id": "a75c8dbdd7e54bc8b7fe9a2d865ab491",
+        "name": "KMC"
+    },
+    "kinveyAppEnvironment": {
+        "appSecret": "cb49ca31aab149db860de7fb333738c8",
+        "id": "kid_Sk0OQW4vE",
+        "instanceId": "",
+        "masterSecret": "89edcd99257a4cf196dfaa1c77655447",
+        "name": "Development"
+    },
+    "name": "DefaultDataProvider",
+    "schemaVersion": "1.0",
+    "serviceUri": "https://baas.kinvey.com",
+    "type": "kinvey-data-provider",
+    "uniqueID": "38dd3ef5-7d03-4ce0-a352-8d21e169d8c1"
+}

@@ -1,0 +1,19 @@
+{
+    "authorization": {
+        "allowedRoles": []
+    },
+    "children": [],
+    "description": "",
+    "label": "Applications",
+    "moduleType": "default",
+    "name": "Applications",
+    "order": 1,
+    "schemaVersion": "1.0",
+    "thumbnail": {
+        "background": "#00a2e8",
+        "color": "#ffffff",
+        "icon": "fa-area-chart"
+    },
+    "type": "module",
+    "uniqueID": "eac4f1ca-ec0d-4bca-a03f-0afc23ca0ead"
+}

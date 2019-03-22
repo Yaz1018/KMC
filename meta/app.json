@@ -1,0 +1,58 @@
+{
+    "authorization": {
+        "roles": []
+    },
+    "build": {
+        "debug": {
+            "baseHref": "/"
+        },
+        "release": {
+            "aot": true,
+            "baseHref": "/"
+        }
+    },
+    "children": [],
+    "defaultLangaugeCulture": "en-US",
+    "defaultLanguageLabel": "English",
+    "description": "",
+    "layout": {},
+    "mobileNavigation": [
+        {
+            "displayName": "Apps List",
+            "module": "Applications",
+            "type": "drawer",
+            "view": "AppsList",
+            "viewLabel": "AppsList"
+        },
+        {
+            "displayName": "Collections",
+            "module": "Applications",
+            "type": "drawer",
+            "view": "Collections",
+            "viewLabel": "Collections"
+        },
+        {
+            "displayName": "New Apps List",
+            "module": "Applications",
+            "type": "drawer",
+            "view": "AppsNewList",
+            "viewLabel": "New Apps List"
+        },
+        {
+            "displayName": "Home",
+            "module": "System",
+            "type": "tab",
+            "view": "home"
+        }
+    ],
+    "mobileTheme": "light",
+    "name": "KinveyMobileConsole",
+    "ripple": false,
+    "schemaVersion": "1.0.4",
+    "startupViewInfo": {},
+    "targetFramework": "Angular",
+    "theme": "metro",
+    "type": "app",
+    "uniqueID": "c7b96ef1-9569-4b1d-a824-8265570e8685",
+    "webNavigation": []
+}

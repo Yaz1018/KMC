@@ -1,0 +1,34 @@
+{
+    "actionBar": true,
+    "actionBarNewButton": true,
+    "actionBarNewButtonText": "New",
+    "actionBarTitle": "",
+    "authorization": {
+        "allowedRoles": []
+    },
+    "dataProvider": "DefaultDataProvider",
+    "dataSource": "collections",
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "showEventHandler": "onShow"
+    },
+    "label": "Collections",
+    "name": "Collections",
+    "navigateOnItemTap": {
+        "parameter": ""
+    },
+    "navigateOnNewTap": {
+        "parameter": ""
+    },
+    "pageSize": 20,
+    "platform": "mobile",
+    "schemaVersion": "1.0",
+    "searchable": false,
+    "secondLine": "_id",
+    "swipeable": false,
+    "title": "_id",
+    "type": "view",
+    "uniqueID": "1d2e0fa0-6e3b-4a4c-aef5-a64bf04eb2ce",
+    "viewType": "mobile-two-lines-list-view"
+}

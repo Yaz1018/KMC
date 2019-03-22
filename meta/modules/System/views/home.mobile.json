@@ -1,0 +1,160 @@
+{
+    "actionBar": true,
+    "actionBarTitle": "",
+    "annotations": {
+        "dataSources": {
+            "name": "dataSourceName"
+        }
+    },
+    "authorization": {
+        "allowedRoles": []
+    },
+    "children": [
+        {
+            "absoluteLayout": {},
+            "appearanceStyles": {
+                "backgroundColor": null,
+                "color": null
+            },
+            "children": [
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "children": [
+                        {
+                            "absoluteLayout": {},
+                            "appearanceStyles": {
+                                "backgroundColor": null,
+                                "color": null
+                            },
+                            "classList": "logo",
+                            "dockLayout": {},
+                            "flexboxLayout": {
+                                "alignSelf": "stretch",
+                                "flexWrapBefore": false
+                            },
+                            "gridLayout": {
+                                "col": null,
+                                "colSpan": null,
+                                "row": null,
+                                "rowSpan": null
+                            },
+                            "id": "mobileimage0",
+                            "local": "logo_default_login.png",
+                            "platform": "mobile",
+                            "schemaVersion": "1.0",
+                            "src": "",
+                            "stretch": "aspectFit",
+                            "type": "mobile-image",
+                            "uniqueID": "5e355b61-f232-4340-abfc-7727fe0d2ca0"
+                        },
+                        {
+                            "absoluteLayout": {},
+                            "appearanceStyles": {
+                                "backgroundColor": null,
+                                "color": null
+                            },
+                            "classList": "h2 -center",
+                            "dockLayout": {},
+                            "flexboxLayout": {
+                                "alignSelf": "stretch",
+                                "flexWrapBefore": false
+                            },
+                            "gridLayout": {
+                                "col": null,
+                                "colSpan": null,
+                                "row": null,
+                                "rowSpan": null
+                            },
+                            "id": "mobilelabel0",
+                            "platform": "mobile",
+                            "schemaVersion": "1.0",
+                            "text": "Welcome to Kinvey Studio!",
+                            "textWrap": false,
+                            "type": "mobile-label",
+                            "uniqueID": "882c65f6-ceaa-4e67-9d58-d9671696f73d"
+                        },
+                        {
+                            "absoluteLayout": {},
+                            "appearanceStyles": {
+                                "backgroundColor": null,
+                                "color": null
+                            },
+                            "classList": "h3",
+                            "dockLayout": {},
+                            "flexboxLayout": {
+                                "alignSelf": "stretch",
+                                "flexWrapBefore": false
+                            },
+                            "gridLayout": {
+                                "col": null,
+                                "colSpan": null,
+                                "row": null,
+                                "rowSpan": null
+                            },
+                            "id": "mobilelabel1",
+                            "platform": "mobile",
+                            "schemaVersion": "1.0",
+                            "text": "Get native performance and UX for iOS, Android and Web apps from a single cross-platform Angular code base.",
+                            "textWrap": true,
+                            "type": "mobile-label",
+                            "uniqueID": "e773bed6-bbb4-456d-8fb8-ab3f6a31514e"
+                        }
+                    ],
+                    "classList": "",
+                    "dockLayout": {},
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "gridLayout": {
+                        "col": null,
+                        "colSpan": null,
+                        "row": null,
+                        "rowSpan": null
+                    },
+                    "id": "mobilestacklayout0",
+                    "orientation": "Vertical",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "type": "mobile-stack-layout",
+                    "uniqueID": "41cabdeb-ba16-4992-bb12-603db7737ee2"
+                }
+            ],
+            "classList": "",
+            "dockLayout": {},
+            "flexboxLayout": {
+                "alignSelf": "stretch",
+                "flexWrapBefore": false
+            },
+            "gridLayout": {
+                "col": null,
+                "colSpan": null,
+                "row": null,
+                "rowSpan": null
+            },
+            "id": "mobilescrollview0",
+            "orientation": "Vertical",
+            "platform": "mobile",
+            "schemaVersion": "1.0",
+            "type": "mobile-scroll-view",
+            "uniqueID": "09e3d2f8-d9ec-4aff-b6cc-eca783fcd5a9"
+        }
+    ],
+    "dataSources": [],
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "showEventHandler": "onShow"
+    },
+    "hidden": false,
+    "name": "home",
+    "platform": "mobile",
+    "schemaVersion": "1.0",
+    "type": "view",
+    "uniqueID": "e2053802-ba0a-4bde-a673-828110b3ef1a",
+    "viewType": "mobile-blank"
+}

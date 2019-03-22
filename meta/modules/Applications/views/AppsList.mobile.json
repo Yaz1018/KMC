@@ -1,0 +1,34 @@
+{
+    "actionBar": true,
+    "actionBarNewButton": true,
+    "actionBarNewButtonText": "New",
+    "actionBarTitle": "",
+    "authorization": {
+        "allowedRoles": []
+    },
+    "dataProvider": "DefaultDataProvider",
+    "dataSource": "apps",
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "showEventHandler": "onShow"
+    },
+    "label": "AppsList",
+    "name": "AppsList",
+    "navigateOnItemTap": {
+        "parameter": ""
+    },
+    "navigateOnNewTap": {
+        "parameter": ""
+    },
+    "pageSize": 20,
+    "platform": "mobile",
+    "schemaVersion": "1.0",
+    "searchable": false,
+    "secondLine": "mapiResponse",
+    "swipeable": false,
+    "title": "_id",
+    "type": "view",
+    "uniqueID": "7ca4c13e-e8d2-4c01-8cdb-7b141ab68df3",
+    "viewType": "mobile-two-lines-list-view"
+}

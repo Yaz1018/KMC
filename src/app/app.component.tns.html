@@ -1,0 +1,25 @@
+<!--
+Auto-generated
+Do not edit!!!
+-->
+<RadSideDrawer [gesturesEnabled]="sideDrawerGesturesEnabled" ios:class="-ios -theme-light" android:class="-android -theme-light">
+    <GridLayout tkDrawerContent rows="auto, *">
+        <StackLayout class="user-info" *ngIf="user && user.email" orientation="horizontal">
+            <Label text="&#xf2bd;" class="fa"></Label>
+            <StackLayout>
+                <Label text="{{ user && user.username }}" verticalAlignment="center"></Label>
+                <Label text="{{ user && user.email }}" verticalAlignment="center"></Label>
+            </StackLayout>
+        </StackLayout>
+        <ScrollView row="1">
+            <StackLayout>
+                <Button text="Apps List" class="fa" (tap)="open('applications/apps-list')"></Button>
+                <Button text="Collections" class="fa" (tap)="open('applications/collections')"></Button>
+                <Button text="New Apps List" class="fa" (tap)="open('applications/apps-new-list')"></Button>
+                <Button text="Logout" class="fa" (tap)="logout()"></Button>
+            </StackLayout>
+        </ScrollView>
+    </GridLayout>
+
+    <page-router-outlet tkMainContent></page-router-outlet>
+</RadSideDrawer>

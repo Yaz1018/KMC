@@ -1,0 +1,159 @@
+{
+    "actionBar": true,
+    "actionBarTitle": "",
+    "annotations": {
+        "dataSources": {
+            "name": "dataSourceName"
+        }
+    },
+    "authorization": {
+        "allowedRoles": []
+    },
+    "children": [
+        {
+            "absoluteLayout": {},
+            "appearanceStyles": {
+                "backgroundColor": null,
+                "color": null
+            },
+            "children": [
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "children": [
+                        {
+                            "absoluteLayout": {},
+                            "appearanceStyles": {
+                                "backgroundColor": null,
+                                "color": null
+                            },
+                            "children": [],
+                            "classList": "",
+                            "dockLayout": {},
+                            "flexboxLayout": {
+                                "alignSelf": "stretch",
+                                "flexWrapBefore": false
+                            },
+                            "gridLayout": {},
+                            "id": "mobilestacklayout1",
+                            "orientation": "Vertical",
+                            "platform": "mobile",
+                            "schemaVersion": "1.0",
+                            "type": "mobile-stack-layout",
+                            "uniqueID": "b649d5af-ab3e-467f-9c3a-14a0ec41b7ad"
+                        }
+                    ],
+                    "childrenDataSourceAlias": "item",
+                    "classList": "",
+                    "dataSourceName": "",
+                    "dockLayout": {},
+                    "enableViewGridLayout": false,
+                    "events": {},
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "gridLayout": {},
+                    "id": "mobilelistviewcomponent0",
+                    "loadOnDemand": true,
+                    "navigateOnItemTap": {
+                        "parameter": ""
+                    },
+                    "platform": "mobile",
+                    "pullToRefresh": true,
+                    "schemaVersion": "1.0",
+                    "swipeToDelete": false,
+                    "type": "mobile-list-view-component",
+                    "uniqueID": "46ba1156-310f-4514-9aea-6080a535c233"
+                },
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "documentDataSource": "appsData",
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "formControlName": "",
+                    "gridLayout": {},
+                    "id": "mobilelistpicker0",
+                    "items": "[1,2,3]",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "type": "mobile-list-picker",
+                    "uniqueID": "69ee9fb6-312c-4714-8575-4011f68e327d"
+                },
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "gridLayout": {},
+                    "id": "mobilelabel07",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "text": "{{$data.appsData?.mapiResponse}} ",
+                    "textWrap": false,
+                    "type": "mobile-label",
+                    "uniqueID": "bb67b623-26ae-4187-b031-f35ee1d9bbac"
+                }
+            ],
+            "classList": "",
+            "dockLayout": {},
+            "flexboxLayout": {
+                "alignSelf": "stretch",
+                "flexWrapBefore": false
+            },
+            "gridLayout": {},
+            "id": "mobilestacklayout0",
+            "orientation": "Vertical",
+            "platform": "mobile",
+            "schemaVersion": "1.0",
+            "type": "mobile-stack-layout",
+            "uniqueID": "418a16dc-64c6-4738-ab56-9521ef678d2c"
+        }
+    ],
+    "dataSources": [
+        {
+            "batch": true,
+            "dataProviderName": "DefaultDataProvider",
+            "dataSourceName": "apps",
+            "filterDataSource": false,
+            "foreignKeyProperty": "",
+            "name": "appsData",
+            "pageSize": 20,
+            "primaryKeyDocumentDataSource": "",
+            "primaryKeyProperty": "",
+            "singleDocument": true,
+            "uniqueID": "3c8aeda1-b1c9-4bdd-b234-b72d518a30ef"
+        }
+    ],
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "showEventHandler": "onShow"
+    },
+    "hidden": false,
+    "label": "New Apps List",
+    "name": "AppsNewList",
+    "platform": "mobile",
+    "schemaVersion": "1.0",
+    "type": "view",
+    "uniqueID": "53939996-0322-452b-9066-033dc27e2213",
+    "viewType": "mobile-blank"
+}

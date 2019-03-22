@@ -1,0 +1,15 @@
+<!--
+Auto-generated
+Do not edit!!!
+-->
+<GridLayout ksHideNavBar>
+    <ScrollView>
+        <StackLayout class="form" [isEnabled]="!isLoading">
+            <Image class="logo" src="~/assets/images/logo_default_login.png"></Image>
+            <Label class="title -center" text="&lt;Title&gt;"></Label>
+
+            <Button text="External Login" (tap)="login()" class="-outline"></Button>
+        </StackLayout>
+    </ScrollView>
+    <ActivityIndicator [busy]="isLoading"></ActivityIndicator>
+</GridLayout>

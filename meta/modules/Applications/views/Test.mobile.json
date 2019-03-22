@@ -1,0 +1,106 @@
+{
+    "actionBar": true,
+    "actionBarTitle": "",
+    "annotations": {
+        "dataSources": {
+            "name": "dataSourceName"
+        }
+    },
+    "authorization": {
+        "allowedRoles": []
+    },
+    "children": [
+        {
+            "absoluteLayout": {},
+            "appearanceStyles": {
+                "backgroundColor": null,
+                "color": null
+            },
+            "children": [
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "gridLayout": {},
+                    "id": "mobilelabel0",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "text": "",
+                    "textWrap": false,
+                    "type": "mobile-label",
+                    "uniqueID": "c34c08b4-1d14-4ae5-bb09-0ab4f2a029b0"
+                },
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "gridLayout": {},
+                    "id": "mobilelabel1",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "text": "",
+                    "textWrap": false,
+                    "type": "mobile-label",
+                    "uniqueID": "917c16ac-2c3f-4f25-968e-9f9be62bea88"
+                }
+            ],
+            "classList": "",
+            "dockLayout": {},
+            "flexboxLayout": {
+                "alignSelf": "stretch",
+                "flexWrapBefore": false
+            },
+            "gridLayout": {},
+            "id": "mobilestacklayout0",
+            "orientation": "Vertical",
+            "platform": "mobile",
+            "schemaVersion": "1.0",
+            "type": "mobile-stack-layout",
+            "uniqueID": "b4f921d9-2ac6-46eb-b55e-c16ee7891a0a"
+        }
+    ],
+    "dataSources": [
+        {
+            "batch": true,
+            "dataProviderName": "DefaultDataProvider",
+            "dataSourceName": "nestedChallenge",
+            "filterDataSource": false,
+            "foreignKeyProperty": "",
+            "name": "NestedData",
+            "pageSize": 20,
+            "primaryKeyDocumentDataSource": "",
+            "primaryKeyProperty": "",
+            "singleDocument": true,
+            "uniqueID": "27028fe1-a19b-4b5a-a9be-144e57021353"
+        }
+    ],
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "showEventHandler": "onShow"
+    },
+    "hidden": false,
+    "label": "Test",
+    "name": "Test",
+    "platform": "mobile",
+    "schemaVersion": "1.0",
+    "type": "view",
+    "uniqueID": "70bc6303-4086-47aa-83d6-4c6aa8c8205f",
+    "viewType": "mobile-blank"
+}

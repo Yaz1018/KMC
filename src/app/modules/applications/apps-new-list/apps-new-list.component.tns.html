@@ -1,0 +1,30 @@
+<!--
+Auto-generated
+Do not edit!!!
+-->
+<ActionBar title="">
+</ActionBar>
+
+<ng-container *ngIf="{ appsData: $appsDataService.dataChanges | async } as $data">
+    <StackLayout orientation="Vertical" class="custom-page">
+        <ks-list-view #mobilelistviewcomponent0 [navigateOnItemTap]="$config.mobilelistviewcomponent0.navigateOnItemTap">
+            <RadListView class="" *ngIf="(mobilelistviewcomponent0.dataService.dataChanges | async) as items; else loading" [items]="items" pullToRefresh="true"
+                (pullToRefreshInitiated)="mobilelistviewcomponent0.onPullToRefreshInitiated($event)" loadOnDemandMode="Manual" (loadMoreDataRequested)="mobilelistviewcomponent0.onLoadMoreDataRequested($event)"
+                (itemTap)="mobilelistviewcomponent0.onItemTap($event)" swipeActions="false">
+
+
+                <ng-template let-item="item">
+                    <StackLayout orientation="Vertical">
+                    </StackLayout>
+                </ng-template>
+
+
+                </RadListView>
+                <ng-template #loading>
+                    <ActivityIndicator row="1" [busy]="true"></ActivityIndicator>
+                </ng-template>
+        </ks-list-view>
+        <ListPicker [items]="[1,2,3]"></ListPicker>
+        <Label text="{{$data.appsData?.mapiResponse}} " class="-data-label" textWrap="false"></Label>
+    </StackLayout>
+</ng-container>
